@@ -1,0 +1,65 @@
+<div class="hero-section hero-has-bg" style="background-image: linear-gradient(135deg, rgba(33,150,243,0.7), rgba(3,169,244,0.7)), url('<%= asset_path("selfie.jpg") %>'); background-size: cover; background-position: center;">
+  <div class="hero-content fade-in">
+    <h1 class="hero-title">Tom Garrett</h1>
+    <p class="hero-subtitle">Senior Full Stack Developer & Technical Team Lead</p>
+    <p class="hero-summary">Expert in React Native and Ruby on Rails. Featured in Microsoft Starters Hub and Enterprise Ireland's New Frontiers Program. Proven track record in innovative web and mobile application development.</p>
+    <div class="hero-cta">
+      <%= link_to "View My Work", projects_path, class: "button" %>
+      <%= link_to "Contact Me", contact_path, class: "button button-outline" %>
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="projects-grid">
+    <div class="card fade-in">
+      <h3>ResidentRadius</h3>
+      <p>Advanced web applications using Ruby on Rails and Docker. IT Lead for a distributed team.</p>
+      <%= link_to "Learn More", projects_path, class: "button" %>
+    </div>
+    <div class="card fade-in">
+      <h3>DocuDynamics</h3>
+      <p>Startup founder, built scalable backend with Rails and cross-platform mobile apps with React Native. Recognized by Microsoft and Enterprise Ireland.</p>
+      <%= link_to "Learn More", projects_path, class: "button" %>
+    </div>
+    <div class="card fade-in">
+      <h3>Independent Consultant</h3>
+      <p>Delivered MVPs and advanced web apps for startups using React, Node.js, Rails, and more. Integrated GraphQL, Docker, and Cloudflare.</p>
+      <%= link_to "Learn More", projects_path, class: "button" %>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Skills & Expertise</h2>
+  <div class="skills-grid">
+    <div class="card fade-in">
+      <h3>Frontend Development</h3>
+      <ul>
+        <li>React & React Native</li>
+        <li>JavaScript (ES6+), Babel.js</li>
+        <li>Redux, CSS3, HTML5</li>
+        <li>Responsive & Mobile Design</li>
+      </ul>
+    </div>
+    <div class="card fade-in">
+      <h3>Backend Development</h3>
+      <ul>
+        <li>Ruby on Rails</li>
+        <li>Node.js, GraphQL, REST APIs</li>
+        <li>PostgreSQL, MongoDB</li>
+        <li>API Design & Integration</li>
+      </ul>
+    </div>
+    <div class="card fade-in">
+      <h3>Tools & Technologies</h3>
+      <ul>
+        <li>Docker, AWS, Cloudflare</li>
+        <li>Git & GitHub</li>
+        <li>Agile, Scrum, TDD</li>
+        <li>CI/CD, MVP Development</li>
+      </ul>
+    </div>
+  </div>
+</section>

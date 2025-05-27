@@ -1,0 +1,109 @@
+<div class="projects-section" data-controller="projects">
+  <h1 class="section-title fade-in">My Projects</h1>
+
+  <div class="projects-grid">
+    <div class="project-card card fade-in" data-projects-target="card" data-category="web">
+      <div class="project-image">
+        <%= image_tag "residentradius_contact_center.png", alt: "ResidentRadius Contact Center", class: "project-card-image" %>
+      </div>
+      <div class="project-content">
+        <h3>ResidentRadius – Contact Center</h3>
+        <p>Principal architect and main contributor to a Twilio-powered contact center application using Ruby on Rails. Streamlined resident communications and support for property management teams.</p>
+        <div class="project-tags">
+          <span class="tag">Ruby on Rails</span>
+          <span class="tag">Twilio</span>
+          <span class="tag">Leadership</span>
+        </div>
+        <div class="project-links">
+          <%= link_to "View Project", residentradius_contact_center_path, class: "button" %>
+        </div>
+      </div>
+    </div>
+    <div class="project-card card fade-in" data-projects-target="card" data-category="web">
+      <div class="project-image">
+        <%= image_tag "bubblegumbi.png", alt: "BubbleGumBI (Business Intelligence)", class: "project-card-image" %>
+      </div>
+      <div class="project-content">
+        <h3>BubbleGumBI (Business Intelligence)</h3>
+        <p>Coordinated the development of an ETL pipeline to integrate diverse data sources into BubbleGumBI, a custom business intelligence platform. Enabled advanced analytics and reporting for stakeholders, improving operational insights and decision-making.</p>
+        <div class="project-tags">
+          <span class="tag">ETL</span>
+          <span class="tag">BubbleGumBI</span>
+          <span class="tag">Analytics</span>
+        </div>
+        <div class="project-links">
+          <%= link_to "View Project", bubblegumbi_path, class: "button" %>
+        </div>
+      </div>
+    </div>
+    <div class="project-card card fade-in" data-projects-target="card" data-category="web">
+      <div class="project-image">
+        <%= image_tag "residentradius_depositcloud.png", alt: "ResidentRadius DepositCloud", class: "project-card-image" %>
+      </div>
+      <div class="project-content">
+        <h3>ResidentRadius – DepositCloud</h3>
+        <p>Key contributor to a large-scale Rails application, DepositCloud. Modernized legacy codebase and implemented new property management system (PMS) integrations, enhancing platform capabilities and reliability.</p>
+        <div class="project-tags">
+          <span class="tag">Ruby on Rails</span>
+          <span class="tag">DepositCloud</span>
+          <span class="tag">Legacy Modernization</span>
+          <span class="tag">PMS Integrations</span>
+        </div>
+        <div class="project-links">
+          <%= link_to "View Project", residentradius_depositcloud_path, class: "button" %>
+        </div>
+      </div>
+    </div>
+    <div class="project-card card fade-in" data-projects-target="card" data-category="web">
+      <div class="project-image">
+        <%= image_tag "docudynamics.jpg", alt: "DocuDynamics", class: "project-card-image" %>
+      </div>
+      <div class="project-content">
+        <h3>DocuDynamics</h3>
+        <p>Startup founder, built scalable backend with Rails and cross-platform mobile apps with React Native. Recognized by Microsoft and Enterprise Ireland.</p>
+        <div class="project-tags">
+          <span class="tag">Ruby on Rails</span>
+          <span class="tag">React Native</span>
+          <span class="tag">AWS</span>
+        </div>
+        <div class="project-links">
+          <%= link_to "View Project", docudynamics_path, class: "button" %>
+        </div>
+      </div>
+    </div>
+    <div class="project-card card fade-in" data-projects-target="card" data-category="web">
+      <div class="project-image">
+        <%= image_tag "consultant.png", alt: "Consultant", class: "project-card-image" %>
+      </div>
+      <div class="project-content">
+        <h3>Independent Consultant</h3>
+        <p>Delivered MVPs and advanced web apps for startups using React, Node.js, Rails, and more. Integrated GraphQL, Docker, and Cloudflare.</p>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">GraphQL</span>
+        </div>
+        <div class="project-links">
+          <%= link_to "View Project", consultant_path, class: "button" %>
+        </div>
+      </div>
+    </div>
+    <div class="project-card card fade-in" data-projects-target="card" data-category="web">
+      <div class="project-image">
+        <%= image_tag "penco.png", alt: "Penco", class: "project-card-image" %>
+      </div>
+      <div class="project-content">
+        <h3>Penco</h3>
+        <p>Led software projects with Ruby on Rails and React.js. Championed TDD and Agile, integrated Salesforce CRM/CMS.</p>
+        <div class="project-tags">
+          <span class="tag">Ruby on Rails</span>
+          <span class="tag">React.js</span>
+          <span class="tag">Salesforce</span>
+        </div>
+        <div class="project-links">
+          <%= link_to "View Project", penco_path, class: "button" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
